@@ -1,0 +1,69 @@
+.custom {
+    background-color: #007bff; 
+  }
+  .navbar-brand,
+  .nav-link {
+    color: #ffffff !important; 
+  }
+
+body {
+    color:rgb(255, 255, 255);
+    background-color:rgb(56, 56, 56)
+}
+
+.messimg {
+      height: 800px;
+      width: 1550px;
+}
+
+.boton {
+    background-color: blue;
+    border-radius: 6PX;
+    padding: 7px 10px 7px 10px;
+    color: blue;
+    text-decoration: none;
+    }
+    
+    .boton:hover {
+        background-color: rgb(3, 3, 200);
+        cursor: pointer;
+    }
+    
+    .boton:active {
+        background-color: red;
+        font-family: cursive;
+        cursor: pointer;
+    }
+    
+    .container {
+        margin-top: 3%;
+    }
+    
+    .container h1{
+        margin-bottom: 2%;
+    }
+    
+    .grid{
+        margin-top: 3%;
+    }
+
+    body h1 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .padre {
+        height: 500px;
+        width: 80000px;
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr;
+        grid-template-rows: 1fr 2fr 2fr 2fr 2fr 2fr ;
+        gap: 4px;
+    }
+    
+    .hijos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:white;
+        background-color: rgb(32, 158, 248);
+    }
+    
